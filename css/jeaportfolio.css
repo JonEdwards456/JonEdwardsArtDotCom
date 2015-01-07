@@ -421,7 +421,7 @@ h3 {
   margin-right: auto ;
 }*/
 
-/*following set 48% or above will make boxes stack remove inline block to get stack */
+
 
 .textlogo {
     margin:auto;
@@ -436,7 +436,7 @@ h3 {
 }
 
 
-/* remove below to get to stack, try to use img at correct size to prevent need for responsive so can remove below rule to center at small size */
+
 .jelogomain {
     height:200px;
     width: 200px;
