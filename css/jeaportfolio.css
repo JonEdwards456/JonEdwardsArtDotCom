@@ -19,10 +19,12 @@
 
 
 body{
-    font-family: 'Quicksand', sans-serif;
+/*    font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Istok Web', sans-serif;
     background: none;
-    width: 90%;
+    width: 100%;
     margin: auto;
+    font-weight: 700;
 }
 
 html { 
@@ -73,8 +75,8 @@ body,
     width: 300px;
     height: 200px;
     border: 1px solid black;
-    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
-    animation: mymove 5s infinite;
+    -webkit-animation: mymove 2s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 2s infinite;
 }
 
 /* Chrome, Safari, Opera */
@@ -87,10 +89,51 @@ body,
     50% {border-radius: 50px;}
 }
 
+p{
+   font-family: 'Istok Web', sans-serif;  
+    margin: 5px 10px;
+    
+}
 
+h2, h3 {
+        font-size: 2.00em;
+        padding-top: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    }
 
-p {
-    margin:10px;
+h3 {
+    
+    font-size: 1.25em;
+    
+
+}
+
+.pagedesc p {
+    margin: 5px auto;
+    max-width: 85%;
+    
+    font-weight: 700;
+    font-size: 1.1em;
+    
+}
+.spanHigh {
+    text-decoration: underline;
+}
+
+.spanEntry {
+    word-wrap: break-word;
+    font-family: 'Istok Web', sans-serif;  
+    margin: 5px 10px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
 }
 
 
@@ -103,13 +146,13 @@ p {
 #wrapper {
     max-width: 940px;
     margin: 0 auto;
-    padding: 0 5%;
+    padding: 0;
 }
 
 .pagedesc {
     background-color: rgba(51, 204, 139, 0.38);
-    max-height: 100px;
-    max-width:65%;
+    
+    
     display: block;
     margin: auto;
     margin-bottom: 10px;
@@ -179,11 +222,15 @@ li {
 .colImg , .colImg2nd{
     width:28%;
     display: inline-block;
-    margin-left: 10px;
-    word-wrap: break-word;
+    margin-left: 15px;
+    word-break: break-all;
 }
 
-
+.colImgcap {
+    white-space: normal;
+     font-size: .8em;
+   
+}
 
 .colImglink {
     border-radius: 100%;
@@ -195,7 +242,7 @@ li {
     background: rgba(81, 175, 173, 0.67);
     border-radius: 5%;
     margin-top: 15px;
-    word-wrap: break-word;
+    
 
 }
 
@@ -358,15 +405,9 @@ h1 {
 
     }
 
-h2 {
-    font-size: 1.75em;
-    margin: -5px 0 0;
-}
 
-h3 {
-    font-size: 1.25em;
-    margin: -5px 0 0;
-}
+
+
 /****************************
  /$$   /$$  /$$$$$$  /$$    /$$ /$$$$$$  /$$$$$$   /$$$$$$  /$$$$$$$$ /$$$$$$  /$$$$$$  /$$   /$$
 | $$$ | $$ /$$__  $$| $$   | $$|_  $$_/ /$$__  $$ /$$__  $$|__  $$__/|_  $$_/ /$$__  $$| $$$ | $$
@@ -409,8 +450,9 @@ h3 {
     padding:2px;
     margin:auto;
     background: rgb(8, 42, 67);
-    width: 45%;
+    width: 100%;
     border-radius: 25px;
+    height:2em;
 /*    margin-right: 5px;*/
     margin-bottom: 5px;
 }
