@@ -1,3 +1,7 @@
+<h1>THIS REPOSITORY IS NO LONGER IN USE, PLEASE FOLLOW THE LINK BELOW TO VIEW THE CURRENT PROJECT!!!!!</h1>
+https://github.com/JonEdwards456/JonEdwardsver3
+
+
 JonEdwardsArtDotCom
 ===================
 
